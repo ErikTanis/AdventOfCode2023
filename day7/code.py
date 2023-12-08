@@ -47,8 +47,6 @@ def get_points2(hand: str) -> list:
         points.extend(get_points2(new_hand))
     return points
 
-    
-
 
 def find_solution1(filename: str):
     hands = []
